@@ -1,38 +1,61 @@
-/* your code here */
-
 /**************************************
-DON'T CHANGE ANYTHING AFTER THIS LINE
+STATIC LAYOUT CSS
 **************************************/
 
-*,
-*:before,
-*:after {
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+  }
+  
+  header {
+	  width: inherit;
+  }
+  
+  nav, section {
+	float: left;
+  }
+  
+  nav {
+	width: 19%;
+	margin-right: 1%;
+  }
+  
+  section {
+	width: 80%;
+  }
+  
+  
+  /**************************************
+  DON'T CHANGE ANYTHING AFTER THIS LINE
+  **************************************/
+  
+  *, *:before, *:after {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-}
-
-body {
+  }
+  
+  body {
 	background: #2980b9;
-	color: #fff;
+	color: #FFF;
 	font-family: Helvetica;
 	text-align: center;
 	margin: 0;
-}
-
-header,
-nav,
-section {
-	border: 1px solid rgba(255, 255, 255, 0.8);
+  }
+  
+  header,
+  nav,
+  section {
+	border: 1px solid rgba(255,255,255,0.8);
 	margin-bottom: 10px;
 	border-radius: 3px;
-}
-
-header {
+  }
+  
+  header {
 	padding: 10px 0;
-}
-
-nav,
-section {
+  }
+  
+  nav, section {
 	padding: 100px 0;
-}
+  }
+  

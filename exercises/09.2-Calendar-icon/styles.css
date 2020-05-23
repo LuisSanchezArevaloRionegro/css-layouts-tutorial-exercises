@@ -1,4 +1,3 @@
-
 .calendar{
 	top:0em;
   	left:1em;
@@ -10,7 +9,7 @@
 	color:#000;
   
 	border-radius:3px;	
-	position:absolute;
+	position: relative;;
 	}
 
 .calendar em{
@@ -19,12 +18,14 @@
 	color:#fff;
 	background:#04599a;
 	border-bottom-right-radius:3px;
-	border-bottom-left-radius:3px;	
+	border-bottom-left-radius:3px;
 	}
 
 .calendar:before, .calendar:after{
 	content:'';
 	float:left;
+	position:absolute;
+	top:5px;
 	width:8px;
 	height:8px;
 	background:#111;
@@ -38,10 +39,11 @@
 .calendar em:before, .calendar em:after{
 	content:'';
 	float: left;
-	margin: 10px;
+	position: absolute;
+	top: -5px;
 	width:4px;
 	height:14px;
-	background:blue;
+	background:gray;
 	z-index:2;
 	}
 .calendar em:before{left:13px;}	

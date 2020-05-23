@@ -1,12 +1,22 @@
-body {
-	margin: 0;
+body{
+    margin: 0;
+    display: inline;
 }
+
 #sectionA {
-	background: blue;
+    background: blue;
+    float: left;
+    width: 33%;
 }
+
 #sectionB {
-	background: red;
+    background: red;
+    float: left;
+    width: 33%;
 }
+
 #sectionC {
-	background: green;
+    background: green;
+    float: left;
+    width: 33%;
 }
